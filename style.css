@@ -1,0 +1,245 @@
+/* POUR LE CAROUSEL */
+
+.carousel-item {
+  height: 32rem;
+  background: #000;
+  color: black;
+  position: relative;
+}
+
+.images {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+/* TITRES DANS LE CAROUSEL */
+
+.paragraph1 {
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.paragraph2 {
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  color: white;
+}
+
+/* BARRE DE NAVIGATION */
+
+.navbar-nav {
+  /* margin-left: 20%; */
+}
+
+.nav-item {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* 
+LES CARD POUR LES MONTRES */
+
+/* LA SECTION DES MONTRES */
+#montres {
+  margin-top: 70px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.titre-montre {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000;
+  text-align: center;
+}
+
+.prix {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000;
+  text-align: center;
+}
+
+.montreprix {
+  text-decoration: none;
+}
+
+/* POUR LES EFFETS DE HOVER */
+
+.card .montreprix img {
+  transform: scale(1);
+  transition: 0.7s ease-in-out;
+}
+
+.card .montreprix:hover img {
+  transform: scale(1.1);
+}
+
+.titreMontre {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.boutonMontre {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.boutonMontre a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* LA SECTION DES CHAUSSURES */
+#chaussures {
+  margin-top: 60px;
+}
+
+.titreChaussures {
+  text-align: center;
+}
+
+.titreChaussures h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* les titres et prix des chaussures */
+
+.titre-chaussure {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000;
+  text-align: center;
+}
+
+.prix-chaussure {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #000;
+  text-align: center;
+}
+
+/* Les portefuilles */
+
+#PORTEFEUILLES {
+  margin-top: 60px;
+}
+
+/* IMAGES DE MONTRES CONNECTE */
+#montre-connecte {
+  margin-top: 20px;
+}
+.montre-connecte-titre {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+}
+
+/* ARTISANAT */
+#artisanat {
+  margin-top: 60px;
+}
+
+.art-titre {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+}
+
+/* LE FOOTER */
+
+footer {
+  margin-top: 100px;
+}
+
+@media (max-width: 800px) {
+  .titre-footer h4 {
+    word-spacing: normal;
+  }
+
+  .titre-footer p {
+    word-spacing: normal;
+  }
+}
+
+.droit {
+  margin-top: 30px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+/* INFOS */
+.container {
+  width: 90%;
+  text-align: justify;
+}
+
+/* PARTIE DE L'ENTETE DE LA PAGE  A PROPOS ET DE L'ENTETE DE LA PAGE CONTACTE */
+
+.informations {
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.informations .text-infos {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.informations .text-contacte {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+/* CONTACTE  */
+
+#contact {
+  margin-top: 100px;
+  width: 100%;
+  background-color: #dfe6e9;
+}
+
+.container {
+  width: 80%;
+}
+
+.laform {
+  width: 70%;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+/* TEXTE DU CONTACT */
+
+.text-du-contact {
+  text-align: center;
+}
+
+/* LA CEINTURE */
+
+#ceinture {
+  width: 100%;
+  text-align: center;
+}
+
+.img-fluid {
+  min-width: 100%;
+}
